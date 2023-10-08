@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    background-color: rgb(19, 233, 19);
+    position: fixed;
+    min-width: 100%;
+    min-height: 100vh;
+}
+.card{
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 40px;
+    width: 450px;
+    background-color: azure;
+    width: 450px;
+    box-shadow: 0 2px 18px -2px rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+.card-header{
+    font-weight: 400;
+    font-size: 20px;
+    margin: auto;
+    width: 220px;
+    text-align: center;
+}
+.form-input input{
+    background: transparent;
+    color: darkolivegreen;
+    background-color: azure;
+    border:1 px solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    display: block;
+    margin: auto;
+}
+.form-input{
+    margin-top:10px ;
+}
+.kode{
+    background-color:red ;
+    color: black;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 70px;
+    padding: 4px;
+}
+.form-kode input{
+    background: transparent;
+    color: darkolivegreen;
+    background-color: azure;
+    border:1 px solid;
+    border-radius: 5px;
+    width: 200px;
+    height: 35px;
+    /*margin-left: 10px;*/
+    display: block;
+    margin-left: 10px;
+}
+.form-kode{
+    display: inline-block;
+    margin: 10px 0px;
+}
+.btn{
+    height: 35px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 8px;
+    color: azure;
+    background-color: lime;
+    width: 70%;
+}
